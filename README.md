@@ -120,7 +120,7 @@ TraceVIC/
 ## Dataset
 
 **755 verified Linux kernel CVEs** with ground-truth vulnerability-inducing
-commits (787 GT commits in total), plus 21 cases each for four additional
+commits (787 GT commits in total), plus **79 cases** across four additional
 projects used in the generalizability evaluation.
 
 Each test case contains:
@@ -143,10 +143,13 @@ see [Stage 2](#stage-2-graph-pre-building).
 
 ### Supported projects
 
-| Project | Language | Role |
-|---|---|---|
-| Linux kernel | C | primary evaluation — 755 CVEs |
-| FFmpeg, OpenSSL, ImageMagick, PHP-SRC | C | generalizability — 21 CVEs each |
+| Project | Language | Role | Cases |
+|---|---|---|---|
+| Linux kernel | C | primary evaluation | 755 |
+| FFmpeg | C | generalizability | 20 |
+| OpenSSL | C | generalizability | 20 |
+| ImageMagick | C | generalizability | 20 |
+| PHP-SRC | C | generalizability | 19 |
 
 ---
 

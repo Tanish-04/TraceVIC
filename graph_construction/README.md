@@ -99,7 +99,11 @@ regenerated locally (see below).
 | project | test cases |
 |---|---|
 | `linux` | 755 |
-| `FFmpeg` / `OpenSSL` / `ImageMagick` / `PHP-SRC` | 21 each |
+| `FFmpeg` | 20 |
+| `OpenSSL` | 20 |
+| `ImageMagick` | 20 |
+| `PHP-SRC` | 19 |
+| **generalizability total** | **79** |
 
 `data/` is **not** tracked in git (see `.gitignore`) — it is ~3.5 GB and is
 distributed through OSF instead.
