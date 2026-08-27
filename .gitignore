@@ -71,5 +71,10 @@ venv/
 .DS_Store
 ._*
 __MACOSX/
+# macOS Archive Utility scratch dirs (one was committed by accident once)
+.ArchiveServiceTemp*
+.TemporaryItems/
+.Spotlight-V100/
+.Trashes/
 .idea/
 .vscode/

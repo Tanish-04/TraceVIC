@@ -1,8 +1,8 @@
-# TraceVIC: Temporal Graph-based Vulnerability-Inducing Commit Identification
+# TraceVIC: Causal Reasoning over Code Evolution for Identifying Vulnerability-Inducing Commits
 
-> **TraceVIC** is a two-phase graph neural network approach for identifying the
-> commit that introduced a vulnerability in C/C++ projects, given the commit that
-> patched it.
+> **TraceVIC** identifies the commit that introduced a vulnerability in C/C++
+> projects, given the commit that patched it, by reasoning over how the affected
+> code evolved across its commit history.
 
 This repository contains the complete implementation accompanying the paper:
 graph construction, the two-phase training pipeline, and all baseline methods.
