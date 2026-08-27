@@ -219,16 +219,12 @@ Useful flags beyond §4:
 | `--skip-phase1 --phase1-checkpoint-dir DIR` | reuse per-fold Phase 1 checkpoints and train only Phase 2 — use this to vary a Phase 2 setting with Phase 1 held fixed |
 | `--no-model-use-temporal-pe`, `--no-phase2-use-temporal-pe` | disable the encoder / Phase 2 positional encodings |
 
-Always redirect output to a file — an SSH drop otherwise kills the run and its
-loss curve is unrecoverable:
+Redirect output to a file to keep the loss curve:
 
 ```bash
-nohup python -u main_kfold.py --graph-mode full_graph \
-    --save-dir checkpoints_GAT_Temporal > train_gat_temporal.log 2>&1 &
+python main_kfold.py --graph-mode full_graph \
+    --save-dir checkpoints_GAT_Temporal > train_gat_temporal.log 2>&1
 ```
-
-Use `python -u`; without it stdout is block-buffered and the log stays empty for
-a long time even while training runs normally.
 
 ---
 
@@ -250,7 +246,6 @@ python main_kfold.py \
 python main_kfold.py \
     --graph-mode no_temporal \
     --no-model-use-temporal-pe \
-    --no-phase2-use-temporal-pe \
     --save-dir checkpoints_755_GAT_NoTemporal
 ```
 
@@ -329,7 +324,6 @@ reconstructed and audited after the fact.
 
 | Symptom | Cause | Fix |
 |---|---|---|
-| Log file stays empty while the GPU is busy | stdout is block-buffered | run with `python -u` |
 | `[SKIP] ... not found` during Step 1 | graph construction did not produce that case's source file | re-run the relevant graph-construction step; `bszz_candidates` needs `graph_bszz_chains.json` |
 | Evaluation numbers do not match training | `n_folds` / `seed` changed between the two | both read `defaults.*` in the YAML — change in one place only |
 | `run_evaluation.py` cannot find checkpoints | checkpoints are not distributed, or `--save-dir` differed | train the arm (§7), or pass `--ckpt-dir ARM=DIR` |

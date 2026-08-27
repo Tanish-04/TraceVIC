@@ -143,17 +143,3 @@ comparable:
 | precision | matches / predicted commits | hits / predicted commits |
 | recall | matches / GT commits | hits / GT commits |
 | averaging | micro (accumulate, then divide) | micro (accumulate, then divide) |
-
-**The one structural difference, which should be stated when reporting.**
-TraceVIC ranks and reports at a fixed cut-off (@1 / @2 / @3). The SZZ variants
-do not rank — they return an *uncapped* set. Measured over the 755 cases:
-
-| method | mean predictions / case | median | max | exactly 1 |
-|---|---|---|---|---|
-| B-SZZ | 1.45 | 1 | 13 | 43% |
-| AG-SZZ | 1.26 | 1 | 13 | 48% |
-| MA-SZZ | 1.37 | 1 | 13 | 45% |
-| V-SZZ | 1.43 | 1 | 13 | 45% |
-
-Their prediction sets therefore sit between TraceVIC's @1 and @2, which raises
-their recall and lowers their precision relative to a strict @1 comparison.

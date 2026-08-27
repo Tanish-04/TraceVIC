@@ -28,14 +28,6 @@ the identical formula:
 - **Micro-averaged** precision = matches / predicted, recall = matches / GT —
   accumulated across all cases, then divided.
 
-**One structural difference to state when reporting:** TraceVIC ranks and
-reports at a cut-off (@1/@2/@3); the SZZ variants return an *uncapped* set
-(mean 1.26–1.45 commits per case, median 1, max 13). Their sets sit between
-TraceVIC's @1 and @2, which raises their recall and lowers their precision
-relative to a strict @1 comparison. See
-[`SZZ/README.md`](SZZ/README.md#evaluation-protocol--identical-to-tracevics)
-for the full table.
-
 ---
 
 ## Shared dependency

@@ -237,12 +237,10 @@ embeddings are cached, and Phase 2 trains on top.
 
 ```bash
 cd training_pipeline
-nohup python -u main_kfold.py --graph-mode full_graph \
-      --save-dir checkpoints_GAT_Temporal > train.log 2>&1 &
+python main_kfold.py --graph-mode full_graph --save-dir checkpoints_GAT_Temporal
 ```
 
-Use `python -u`, or stdout is block-buffered and the log stays empty while the
-GPU runs. See [The Three Arms](#the-three-arms) for the exact commands.
+See [The Three Arms](#the-three-arms) for the exact commands.
 
 ### Stage 4: Evaluation
 
@@ -278,7 +276,7 @@ python main_kfold.py --graph-mode full_graph --save-dir checkpoints_755_GAT_Temp
 **Arm 2 — GAT − temporal (ablation)**
 ```bash
 python main_kfold.py --graph-mode no_temporal \
-    --no-model-use-temporal-pe --no-phase2-use-temporal-pe \
+    --no-model-use-temporal-pe \
     --save-dir checkpoints_755_GAT_NoTemporal
 ```
 
@@ -314,23 +312,21 @@ cd baselines/SZZ
 python evaluate.py --method b --time all755      # b | ag | ma | v
 ```
 
-> One difference to note when reporting: TraceVIC ranks and reports at a fixed
-> @1/@2/@3 cut-off, whereas the SZZ variants return an *uncapped* set
-> (mean 1.26–1.45 predictions per case). This raises their recall and lowers
-> their precision relative to a strict @1 comparison.
-
 ---
 
 ## Configuration Reference
 
 ### Graph construction — `graph_construction/config.yaml`
 
-| Key | Description |
-|---|---|
-| `projects.<name>.root` | path to the cloned repository |
-| `pipeline.repos_dir` | directory holding all clones |
-| `vszz.pyszz_path` | path to the SZZ implementations (`../baselines/SZZ`) |
-| `gumtree.java_home` | JDK 21 home — **no env-var override, no fallback** |
+All paths are relative to `graph_construction/`.
+
+| Key | Default | Description |
+|---|---|---|
+| `pipeline.repos_dir` | `repositories` | directory holding every clone |
+| `projects.<name>.root` | `repositories/<name>` | that project's cloned git working tree — e.g. `repositories/linux`. Used as the base for resolving `compile_commands.json` include paths when Clang parses a source file. |
+| `projects.<name>.compile_db` | `repositories/<name>/compile_commands.json` | compile database for that project |
+| `vszz.pyszz_path` | `../baselines/SZZ` | SZZ implementations imported by Step 4 |
+| `gumtree.java_home` | `/usr/lib/jvm/java-21-openjdk-amd64` | JDK 21 home — **no env-var override, no fallback** |
 
 Environment variables: `GRAPHGEN_LIBCLANG`, `GRAPHGEN_PROJECT`,
 `GRAPHGEN_COMPILE_DB` (all optional overrides).

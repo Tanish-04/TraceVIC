@@ -103,7 +103,7 @@ ARMS = {
                               model_pe=True, phase2_pe=True)),
     "gat_notemporal":   ("GAT - temporal", "checkpoints_755_GAT_NoTemporal",
                          dict(encoder="gat", graph_mode="no_temporal",
-                              model_pe=False, phase2_pe=False)),
+                              model_pe=False, phase2_pe=True)),
     "bszz_candidates":  ("Variant B (B-SZZ cands)", "checkpoints_755_BSZZ_Candidates",
                          dict(encoder="gat", graph_mode="bszz_candidates",
                               model_pe=True, phase2_pe=True)),

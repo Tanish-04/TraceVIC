@@ -152,7 +152,3 @@ so the upstream package stays self-contained — the metric from
 **787 is the same ground-truth total** as `../SZZ` (B/AG/MA/V-SZZ) and as
 TraceVIC's own `evaluate_global`. All nine arms are scored against one
 population with one formula.
-
-The caveat in [`../README.md`](../README.md) applies here as well: these
-variants return an *uncapped* prediction set, whereas TraceVIC reports at a
-fixed @1/@2/@3 cut-off.
