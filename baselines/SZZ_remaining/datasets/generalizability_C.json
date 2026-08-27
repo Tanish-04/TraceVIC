@@ -1,0 +1,1355 @@
+[
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2018-6621",
+  "test_case": "test1",
+  "fixing_details": [
+   {
+    "fixing_commit": "118e1b0b3370dd1c0da442901b486689efd1654b",
+    "inducing_commits": [
+     {
+      "commit_id": "3ecc59bc35412d0cc2299668dd1f79fff090eb3f"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2015-6761",
+  "test_case": "test10",
+  "fixing_details": [
+   {
+    "fixing_commit": "dabea74d0e82ea80cd344f630497cafcb3ef872c",
+    "inducing_commits": [
+     {
+      "commit_id": "ac4b32df71bd932838043a4838b86d11e169707f"
+     },
+     {
+      "commit_id": "53c20f17c78d1d8a0fc2505868f201e69ff59cc5"
+     },
+     {
+      "commit_id": "951455c1c18d54177f281dba174078e54a835361"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2017-9996",
+  "test_case": "test11",
+  "fixing_details": [
+   {
+    "fixing_commit": "e1b60aad77c27ed5d4dfc11e5e6a05a38c70489d",
+    "inducing_commits": [
+     {
+      "commit_id": "126daeb5507425d5e9906731d70015d79045d131"
+     },
+     {
+      "commit_id": "dc4e57489fa0f9cf4faf4c85cc405d6db77d84db"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2017-7862",
+  "test_case": "test12",
+  "fixing_details": [
+   {
+    "fixing_commit": "8c2ea3030af7b40a3c4275696fb5c76cdb80950a",
+    "inducing_commits": [
+     {
+      "commit_id": "a526d6197a539852bcdcf737b2faaa9123e992de"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2016-10192",
+  "test_case": "test13",
+  "fixing_details": [
+   {
+    "fixing_commit": "a5d25faa3f4b18dac737fdb35d0dd68eb0dc2156",
+    "inducing_commits": [
+     {
+      "commit_id": "19c8c4ecf4e26762327a472dcf34132ceb196e30"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2014-8546",
+  "test_case": "test14",
+  "fixing_details": [
+   {
+    "fixing_commit": "e7e5114c506957f40aafd794e06de1a7e341e9d5",
+    "inducing_commits": [
+     {
+      "commit_id": "2a0dbb1efc1f019560ef72406771fd38962c3408"
+     },
+     {
+      "commit_id": "2fdf638b0c66c22357d56f7cb205dd241b4a8c58"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2013-7014",
+  "test_case": "test15",
+  "fixing_details": [
+   {
+    "fixing_commit": "86736f59d6a527d8bc807d09b93f971c0fe0bb07",
+    "inducing_commits": [
+     {
+      "commit_id": "e92003514d7aab25d56e2d827820f47755d397ec"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2013-4264",
+  "test_case": "test16",
+  "fixing_details": [
+   {
+    "fixing_commit": "2960576378d17d71cc8dccc926352ce568b5eec1",
+    "inducing_commits": [
+     {
+      "commit_id": "2d66a58ccde05e764594bd7e5f0f9244634d0b2c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2013-3671",
+  "test_case": "test17",
+  "fixing_details": [
+   {
+    "fixing_commit": "7edb984dd051b6919d7d8471c70499273f31b0fa",
+    "inducing_commits": [
+     {
+      "commit_id": "e69263cd01380b7b20b92588dcac324bf776b59f"
+     },
+     {
+      "commit_id": "eb7efc126aed1947edcba81c2d1a9bf776206f5c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2012-5150",
+  "test_case": "test18",
+  "fixing_details": [
+   {
+    "fixing_commit": "ae3d41636942cbc0236bad21ad06c65f4eb0f096",
+    "inducing_commits": [
+     {
+      "commit_id": "7521c4bab28ff3a622171be5b39a6b210f4263f0"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2013-2276",
+  "test_case": "test19",
+  "fixing_details": [
+   {
+    "fixing_commit": "8a6449167a6da8cb747cfe3502ae86ffaac2ed48",
+    "inducing_commits": [
+     {
+      "commit_id": "2fe186409bf3249669271502298bdc8844ce4e0b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2017-14169",
+  "test_case": "test2",
+  "fixing_details": [
+   {
+    "fixing_commit": "9d00fb9d70ee8c0cc7002b89318c5be00f1bbdad",
+    "inducing_commits": [
+     {
+      "commit_id": "daa290580dade36a69544a191e6983e920885c16"
+     },
+     {
+      "commit_id": "d09ea6baaf1a2ea29df60d70c34d5387266f58f4"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2013-0864",
+  "test_case": "test20",
+  "fixing_details": [
+   {
+    "fixing_commit": "c10350358da58600884292c08a8690289b81de29",
+    "inducing_commits": [
+     {
+      "commit_id": "91499f4ee825502677dfc11b00205538720d0513"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2018-7751",
+  "test_case": "test3",
+  "fixing_details": [
+   {
+    "fixing_commit": "a6cba062051f345e8ebfdff34aba071ed73d923f",
+    "inducing_commits": [
+     {
+      "commit_id": "a20f64bee235042f6e35c8e7ae65ccfddbf7343b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2017-14059",
+  "test_case": "test4",
+  "fixing_details": [
+   {
+    "fixing_commit": "7e80b63ecd259d69d383623e75b318bf2bd491f6",
+    "inducing_commits": [
+     {
+      "commit_id": "40f88796c69ae453e5fc4b8cd6432fa0ca85b923"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2017-14767",
+  "test_case": "test5",
+  "fixing_details": [
+   {
+    "fixing_commit": "c42a1388a6d1bfd8001bf6a4241d8ca27e49326d",
+    "inducing_commits": [
+     {
+      "commit_id": "1c7e2cf9d33968375ee4025d2279c937e147dae2"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2017-9992",
+  "test_case": "test6",
+  "fixing_details": [
+   {
+    "fixing_commit": "f52fbf4f3ed02a7d872d8a102006f29b4421f360",
+    "inducing_commits": [
+     {
+      "commit_id": "d05f72c75445969cd7bdb1d860635c9880c67fb6"
+     },
+     {
+      "commit_id": "8099187e897ddc90cb3902332c76fb2542dac308"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2017-5024",
+  "test_case": "test7",
+  "fixing_details": [
+   {
+    "fixing_commit": "2d453188c2303da641dafb048dc1806790526dfd",
+    "inducing_commits": [
+     {
+      "commit_id": "70b922f371e27440a51ee1e9cc1c7db0e042ebd1"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2016-5199",
+  "test_case": "test8",
+  "fixing_details": [
+   {
+    "fixing_commit": "347cb14b7cba7560e53f4434b419b9d8800253e7",
+    "inducing_commits": [
+     {
+      "commit_id": "9ea812692c38c58a343cec5f66e8949655906edc"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "FFmpeg",
+  "cve_id": "CVE-2015-8364",
+  "test_case": "test9",
+  "fixing_details": [
+   {
+    "fixing_commit": "df91aa034b82b77a3c4e01791f4a2b2ff6c82066",
+    "inducing_commits": [
+     {
+      "commit_id": "28dda8a691f1c723a4a9365ab85f9625f1330096"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2016-6823",
+  "test_case": "test1",
+  "fixing_details": [
+   {
+    "fixing_commit": "4cc6ec8a4197d4c008577127736bf7985d632323",
+    "inducing_commits": [
+     {
+      "commit_id": "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2017-12433",
+  "test_case": "test10",
+  "fixing_details": [
+   {
+    "fixing_commit": "7beec9a7a8a5701652b313e6e94bafd36b3627dc",
+    "inducing_commits": [
+     {
+      "commit_id": "787ee25e9fb0e4e0509121342371d925fe5044f8"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2017-12666",
+  "test_case": "test11",
+  "fixing_details": [
+   {
+    "fixing_commit": "d5559407ce29f4371e5df9c1cbde65455fe5854c",
+    "inducing_commits": [
+     {
+      "commit_id": "642e14ef198b90419df5bf71ad396c19b6e85809"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2017-12667",
+  "test_case": "test12",
+  "fixing_details": [
+   {
+    "fixing_commit": "bfb7915d4b2e11acb6a819e451c382dc645277db",
+    "inducing_commits": [
+     {
+      "commit_id": "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2016-10049",
+  "test_case": "test13",
+  "fixing_details": [
+   {
+    "fixing_commit": "13db820f5e24cd993ee554e99377fea02a904e18",
+    "inducing_commits": [
+     {
+      "commit_id": "2174484dfa68a594e2f9ad17f46217b6120db18d"
+     },
+     {
+      "commit_id": "7131d8ff451a1d5163e7e35b7a910df80cb54fab"
+     },
+     {
+      "commit_id": "e5f0042d473f820d635e2a1ba456ea41e3e04757"
+     },
+     {
+      "commit_id": "b64823d5e9d6def353c863a1464867f1bf5caca5"
+     },
+     {
+      "commit_id": "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2017-11188",
+  "test_case": "test14",
+  "fixing_details": [
+   {
+    "fixing_commit": "e9728345edd0141b4724e54832103055a94708b8",
+    "inducing_commits": [
+     {
+      "commit_id": "04ea8a0176bc11af2fda9f0369a6708919652d5e"
+     },
+     {
+      "commit_id": "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2017-11505",
+  "test_case": "test15",
+  "fixing_details": [
+   {
+    "fixing_commit": "45e53a7ad94ce3573d9997704bf32e1f3097f9c0",
+    "inducing_commits": [
+     {
+      "commit_id": "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2018-8804",
+  "test_case": "test16",
+  "fixing_details": [
+   {
+    "fixing_commit": "f55d3a622d234e940fb99325b92c6d3df578fa9b",
+    "inducing_commits": [
+     {
+      "commit_id": "151b66dffc9e3c2e8c4f8cdaca37ff987ca0f497"
+     },
+     {
+      "commit_id": "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2017-14324",
+  "test_case": "test17",
+  "fixing_details": [
+   {
+    "fixing_commit": "399631650b38eaf21c2f3c306b8b74e66be6a0d2",
+    "inducing_commits": [
+     {
+      "commit_id": "7fd419441bc7103398e313558171d342c6315f44"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2017-14739",
+  "test_case": "test18",
+  "fixing_details": [
+   {
+    "fixing_commit": "6017a80fe8327fefb77fa677d81154db2b857d1d",
+    "inducing_commits": [
+     {
+      "commit_id": "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2017-15033",
+  "test_case": "test19",
+  "fixing_details": [
+   {
+    "fixing_commit": "ef8f40689ac452398026c07da41656a7c87e4683",
+    "inducing_commits": [
+     {
+      "commit_id": "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2016-7799",
+  "test_case": "test2",
+  "fixing_details": [
+   {
+    "fixing_commit": "a7bb158b7bedd1449a34432feb3a67c8f1873bfa",
+    "inducing_commits": [
+     {
+      "commit_id": "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2017-17883",
+  "test_case": "test20",
+  "fixing_details": [
+   {
+    "fixing_commit": "b0a7241df0f889cc3158ba82774ff21fa1da87ec",
+    "inducing_commits": [
+     {
+      "commit_id": "68ea6a0257d72112016180a057ea0778460c05d4"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2016-7906",
+  "test_case": "test3",
+  "fixing_details": [
+   {
+    "fixing_commit": "90406972f108c4da71f998601b06abdc2ac6f06e",
+    "inducing_commits": [
+     {
+      "commit_id": "940942b0a7bccda8a96c21c8c5b1d37268173038"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2016-8862",
+  "test_case": "test4",
+  "fixing_details": [
+   {
+    "fixing_commit": "aea6c6507f55632829e6432f8177a084a57c9fcc",
+    "inducing_commits": [
+     {
+      "commit_id": "caf07b0f71a915d00c6667efd90a138340735eb7"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2016-8866",
+  "test_case": "test5",
+  "fixing_details": [
+   {
+    "fixing_commit": "ab2c9d6a8dd6d71b161ec9cc57a588b116b52322",
+    "inducing_commits": [
+     {
+      "commit_id": "aea6c6507f55632829e6432f8177a084a57c9fcc"
+     },
+     {
+      "commit_id": "caf07b0f71a915d00c6667efd90a138340735eb7"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2017-11478",
+  "test_case": "test6",
+  "fixing_details": [
+   {
+    "fixing_commit": "e727ff8c84eafdb012f73d6fe29db11650f73f1a",
+    "inducing_commits": [
+     {
+      "commit_id": "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2016-5688",
+  "test_case": "test7",
+  "fixing_details": [
+   {
+    "fixing_commit": "aecd0ada163a4d6c769cec178955d5f3e9316f2f",
+    "inducing_commits": [
+     {
+      "commit_id": "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2017-11528",
+  "test_case": "test8",
+  "fixing_details": [
+   {
+    "fixing_commit": "7ede0be7c379b2a105cae9d9633727845d5458cc",
+    "inducing_commits": [
+     {
+      "commit_id": "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "ImageMagick",
+  "cve_id": "CVE-2017-11536",
+  "test_case": "test9",
+  "fixing_details": [
+   {
+    "fixing_commit": "167e1538ae9818d46c9462a4273082871e35a480",
+    "inducing_commits": [
+     {
+      "commit_id": "73bbee1c22e299bd29a1f2f8e1ccec66923bcccc"
+     },
+     {
+      "commit_id": "7ea349614d7582d3c7e54afc52360d8db73a8f67"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2015-3194",
+  "test_case": "test1",
+  "fixing_details": [
+   {
+    "fixing_commit": "c394a488942387246653833359a5c94b5832674e",
+    "inducing_commits": [
+     {
+      "commit_id": "ae5c8664e587f2445c8e4eb436cffbb64af4f6b8"
+     },
+     {
+      "commit_id": "af7d6b936b4020cf433a0bb20f911f9e03576e50"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2017-3737",
+  "test_case": "test10",
+  "fixing_details": [
+   {
+    "fixing_commit": "898fb884b706aaeb283de4812340bb0bde8476dc",
+    "inducing_commits": [
+     {
+      "commit_id": "e4f77bf1833245d2b6aa4ce6a16c85e1cdf78589"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2013-6449",
+  "test_case": "test11",
+  "fixing_details": [
+   {
+    "fixing_commit": "ca989269a2876bae79393bd54c3e72d49975fc75",
+    "inducing_commits": [
+     {
+      "commit_id": "9472baae0d17ddf425f891a3154057356217af08"
+     },
+     {
+      "commit_id": "277f8a34f4041fb9e7b00e998e079d7fecd075a9"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2016-6303",
+  "test_case": "test12",
+  "fixing_details": [
+   {
+    "fixing_commit": "55d83bf7c10c7b205fffa23fa7c3977491e56c07",
+    "inducing_commits": [
+     {
+      "commit_id": "0f113f3ee4d629ef9a4a30911b22b224772085e5"
+     },
+     {
+      "commit_id": "d02b48c63a58ea4367a0e905979f140b7d090f86"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2016-2106",
+  "test_case": "test13",
+  "fixing_details": [
+   {
+    "fixing_commit": "3f3582139fbb259a1c3cbb0a25236500a409bf26",
+    "inducing_commits": [
+     {
+      "commit_id": "0f113f3ee4d629ef9a4a30911b22b224772085e5"
+     },
+     {
+      "commit_id": "d02b48c63a58ea4367a0e905979f140b7d090f86"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2000-1254",
+  "test_case": "test14",
+  "fixing_details": [
+   {
+    "fixing_commit": "db82b8f9bd432a59aea8e1014694e15fc457c2bb",
+    "inducing_commits": [
+     {
+      "commit_id": "dfeab0689f69c0b4bd3480ffd37a9cacc2f17d9c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2016-6302",
+  "test_case": "test15",
+  "fixing_details": [
+   {
+    "fixing_commit": "e97763c92c655dcf4af2860b3abd2bc4c8a267f9",
+    "inducing_commits": [
+     {
+      "commit_id": "c519e89f5c359b8c0f747519773284d9b6382791"
+     },
+     {
+      "commit_id": "8a2062fefedde7957f228e274d12155ca8660d4c"
+     },
+     {
+      "commit_id": "6434abbfc6ac0d5cb882844ed10fef5821039cf6"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2014-0221",
+  "test_case": "test16",
+  "fixing_details": [
+   {
+    "fixing_commit": "d3152655d5319ce883c8e3ac4b99f8de4c59d846",
+    "inducing_commits": [
+     {
+      "commit_id": "36d16f8ee0845d932e250286e8e236580470e35b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2015-1787",
+  "test_case": "test17",
+  "fixing_details": [
+   {
+    "fixing_commit": "b19d8143212ae5fbc9cebfd51c01f802fabccd33",
+    "inducing_commits": [
+     {
+      "commit_id": "ae5c8664e587f2445c8e4eb436cffbb64af4f6b8"
+     },
+     {
+      "commit_id": "c523eb98d1694afd5d73cb5fe3b521c6064c130f"
+     },
+     {
+      "commit_id": "7493bcc659a6d1cff73d7974f18a73331e978657"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2016-7052",
+  "test_case": "test18",
+  "fixing_details": [
+   {
+    "fixing_commit": "6e629b5be45face20b4ca71c4fcbfed78b864a2e",
+    "inducing_commits": [
+     {
+      "commit_id": "325da8231c8d441e6bb7f15d1a5a23ff63c842e5"
+     },
+     {
+      "commit_id": "ae5c8664e587f2445c8e4eb436cffbb64af4f6b8"
+     },
+     {
+      "commit_id": "bc7535bc7fe30fbba222c316a3957da7d906603b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2009-3245",
+  "test_case": "test19",
+  "fixing_details": [
+   {
+    "fixing_commit": "7e4cae1d2f555cbe9226b377aff4b56c9f7ddd4d",
+    "inducing_commits": [
+     {
+      "commit_id": "6a2347ee45927c595847e797778af2031cba8e0d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2016-2182",
+  "test_case": "test2",
+  "fixing_details": [
+   {
+    "fixing_commit": "07bed46f332fce8c1d157689a2cdf915a982ae34",
+    "inducing_commits": [
+     {
+      "commit_id": "b196e7d936fb377d9c5b305748ac25ff0e53ef6d"
+     },
+     {
+      "commit_id": "0f113f3ee4d629ef9a4a30911b22b224772085e5"
+     },
+     {
+      "commit_id": "26a3a48d65c7464b400ec1de439994d7f0d25fed"
+     },
+     {
+      "commit_id": "58964a492275ca9a59a0cd9c8155cb2491b4b909"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2016-6309",
+  "test_case": "test20",
+  "fixing_details": [
+   {
+    "fixing_commit": "acacbfa7565c78d2273c0b2a2e5e803f44afefeb",
+    "inducing_commits": [
+     {
+      "commit_id": "4b390b6c3f8df925dc92a3dd6b022baa9a2f4650"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2016-2105",
+  "test_case": "test3",
+  "fixing_details": [
+   {
+    "fixing_commit": "5b814481f3573fa9677f3a31ee51322e2a22ee6a",
+    "inducing_commits": [
+     {
+      "commit_id": "10621efd3296a92f489f6ab26a88e88d9790930e"
+     },
+     {
+      "commit_id": "d02b48c63a58ea4367a0e905979f140b7d090f86"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2009-1379",
+  "test_case": "test4",
+  "fixing_details": [
+   {
+    "fixing_commit": "561cbe567846a376153bea7f1f2d061e78029c2d",
+    "inducing_commits": [
+     {
+      "commit_id": "90acf770b52bdccc06e75356281780eb697ccb18"
+     },
+     {
+      "commit_id": "54ef01b54bd64fdf5820d3860f4c458a9c2fa4f0"
+     },
+     {
+      "commit_id": "36d16f8ee0845d932e250286e8e236580470e35b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2009-1378",
+  "test_case": "test5",
+  "fixing_details": [
+   {
+    "fixing_commit": "abda7c114791fa7fe95672ec7a66fc4733c40dbc",
+    "inducing_commits": [
+     {
+      "commit_id": "90acf770b52bdccc06e75356281780eb697ccb18"
+     },
+     {
+      "commit_id": "6c61726b2af78a1985178d31e551351231b54b10"
+     },
+     {
+      "commit_id": "36d16f8ee0845d932e250286e8e236580470e35b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2015-0208",
+  "test_case": "test6",
+  "fixing_details": [
+   {
+    "fixing_commit": "4b22cce3812052fe64fc3f6d58d8cc884e3cb834",
+    "inducing_commits": [
+     {
+      "commit_id": "ae5c8664e587f2445c8e4eb436cffbb64af4f6b8"
+     },
+     {
+      "commit_id": "af7d6b936b4020cf433a0bb20f911f9e03576e50"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2015-0205",
+  "test_case": "test7",
+  "fixing_details": [
+   {
+    "fixing_commit": "1421e0c584ae9120ca1b88098f13d6d2e90b83a3",
+    "inducing_commits": [
+     {
+      "commit_id": "3b1fb1a0226e29c9d7c79ff7fbde21ef9cac4deb"
+     },
+     {
+      "commit_id": "d02b48c63a58ea4367a0e905979f140b7d090f86"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2015-0290",
+  "test_case": "test8",
+  "fixing_details": [
+   {
+    "fixing_commit": "77c77f0a1b9f15b869ca3342186dfbedd1119d0e",
+    "inducing_commits": [
+     {
+      "commit_id": "ae5c8664e587f2445c8e4eb436cffbb64af4f6b8"
+     },
+     {
+      "commit_id": "95783193946982d5acfc9f8d43dc25c021f39b9c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "OpenSSL",
+  "cve_id": "CVE-2018-0732",
+  "test_case": "test9",
+  "fixing_details": [
+   {
+    "fixing_commit": "3984ef0b72831da8b3ece4745cac4f8575b19098",
+    "inducing_commits": [
+     {
+      "commit_id": "ae5c8664e587f2445c8e4eb436cffbb64af4f6b8"
+     },
+     {
+      "commit_id": "c62b26fdc6bb176541ec56498090ff6f2ad4a885"
+     },
+     {
+      "commit_id": "dfeab0689f69c0b4bd3480ffd37a9cacc2f17d9c"
+     },
+     {
+      "commit_id": "d02b48c63a58ea4367a0e905979f140b7d090f86"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2014-2497",
+  "test_case": "test1",
+  "fixing_details": [
+   {
+    "fixing_commit": "cf4753691dc55999373d1c576f62ecb298723420",
+    "inducing_commits": [
+     {
+      "commit_id": "d29d55e772c1b3008968130402773144dcba4883"
+     },
+     {
+      "commit_id": "7a8cade379e90bafca21cd983f2f5a4d84a7ff8a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2015-7803",
+  "test_case": "test10",
+  "fixing_details": [
+   {
+    "fixing_commit": "d698f0ae51f67c9cce870b09c59df3d6ba959244",
+    "inducing_commits": [
+     {
+      "commit_id": "44cb95a53d199b7f06eedcc07f1a839ada4e795d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2015-5589",
+  "test_case": "test11",
+  "fixing_details": [
+   {
+    "fixing_commit": "bf58162ddf970f63502837f366930e44d6a992cf",
+    "inducing_commits": [
+     {
+      "commit_id": "95eeee9156a88eec0ddbb17cb31a74b8a36069c3"
+     },
+     {
+      "commit_id": "d1eda9c8acbd6a231012f22b124fda6d7242018c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2015-7804",
+  "test_case": "test12",
+  "fixing_details": [
+   {
+    "fixing_commit": "e78ac461dbefb7c4a3e9fde78d50fbc56b7b0183",
+    "inducing_commits": [
+     {
+      "commit_id": "4749457a498828e9f7919401889a991b8a9b94b5"
+     },
+     {
+      "commit_id": "16b4d8e0e1108564fa042520171d9091af708d83"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2012-2329",
+  "test_case": "test13",
+  "fixing_details": [
+   {
+    "fixing_commit": "20364bcff9f38bed83245d785cc8ec3a072e4da5",
+    "inducing_commits": [
+     {
+      "commit_id": "a95dd97752d73c213d21ce97200e64e3ff6f40f0"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2014-9427",
+  "test_case": "test14",
+  "fixing_details": [
+   {
+    "fixing_commit": "f9ad3086693fce680fbe246e4a45aa92edd2ac35",
+    "inducing_commits": [
+     {
+      "commit_id": "b4216e0a82f509532513a9a6bc1882b75918f341"
+     },
+     {
+      "commit_id": "f723d368b3f90e38f5b9f07ddc886a6dad01a984"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2018-14884",
+  "test_case": "test15",
+  "fixing_details": [
+   {
+    "fixing_commit": "0e097f2c96ce31b16fa371981045f224e5a37160",
+    "inducing_commits": [
+     {
+      "commit_id": "5146d9f8ac170d8ba7109370d732d56dc0777578"
+     },
+     {
+      "commit_id": "3d6fccc08c3903129c91e32599ee1f7f525e82c2"
+     },
+     {
+      "commit_id": "679c6298e332c36f315c8ab8ac816336b602c94f"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2015-5590",
+  "test_case": "test16",
+  "fixing_details": [
+   {
+    "fixing_commit": "6dedeb40db13971af45276f80b5375030aa7e76f",
+    "inducing_commits": [
+     {
+      "commit_id": "c6aa379d74535bf5e245fa9941b235498f987196"
+     },
+     {
+      "commit_id": "0d830a27ea042b1bd9b32a050e6812002b79f487"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2016-3078",
+  "test_case": "test17",
+  "fixing_details": [
+   {
+    "fixing_commit": "3b8d4de300854b3517c7acb239b84f7726c1353c",
+    "inducing_commits": [
+     {
+      "commit_id": "c3e3c98ec666812daaaca896cf5ef758a8a6df14"
+     },
+     {
+      "commit_id": "bea30846bb40e84eab19243823c5c8baa2f0137c"
+     },
+     {
+      "commit_id": "eaf3d32157811f6f43da084b55b34f124fc795e1"
+     },
+     {
+      "commit_id": "664d102aa65af165bf25163b220424e67241369c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2016-4542",
+  "test_case": "test18",
+  "fixing_details": [
+   {
+    "fixing_commit": "082aecfc3a753ad03be82cf14f03ac065723ec92",
+    "inducing_commits": [
+     {
+      "commit_id": "a3daf3bbe8be19e383fe81f170cb146faa694847"
+     },
+     {
+      "commit_id": "e0654de5905737e4bf5e7c94dc59403da9b7394f"
+     },
+     {
+      "commit_id": "b634ec9e300552ab9a56178949023842610da909"
+     },
+     {
+      "commit_id": "59f332800f54e2d43f3e35db528efb117e76d79f"
+     },
+     {
+      "commit_id": "3c47fb91e84d710c0f63658d1834e8cac6b49d60"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2013-7456",
+  "test_case": "test19",
+  "fixing_details": [
+   {
+    "fixing_commit": "7a1aac3343af85b4af4df5f8844946eaa27394ab",
+    "inducing_commits": [
+     {
+      "commit_id": "a7a53d369bfcf3208b445b9aa12aa8a6e114c5fd"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2014-0238",
+  "test_case": "test2",
+  "fixing_details": [
+   {
+    "fixing_commit": "57225f09edd671db50137194cb83530884cb6030",
+    "inducing_commits": [
+     {
+      "commit_id": "7a29c8f38677d1c7474c979836562488f6bbadec"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2016-6297",
+  "test_case": "test20",
+  "fixing_details": [
+   {
+    "fixing_commit": "8ebdb1f5fd19cb15dd6ac7700c781ede5dcbba95",
+    "inducing_commits": [
+     {
+      "commit_id": "3b337020fad89f0560aff3af3d0447d1ee1eaa66"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2014-9912",
+  "test_case": "test4",
+  "fixing_details": [
+   {
+    "fixing_commit": "e644aad3f9138bbb2e77520f033ba902f236b8b5",
+    "inducing_commits": [
+     {
+      "commit_id": "0d16b1516b6b9ef0c2696bc19069e4cda5aee0ea"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2014-3487",
+  "test_case": "test5",
+  "fixing_details": [
+   {
+    "fixing_commit": "2fe5bcbeb58bb1088f9fcdb9f02599880454b602",
+    "inducing_commits": [
+     {
+      "commit_id": "12cf930a403d0bbee0c40a5e93554cafd6b0895e"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2014-3587",
+  "test_case": "test6",
+  "fixing_details": [
+   {
+    "fixing_commit": "cba5120407fbd0735b9aac5ede2fd02bdfab46a9",
+    "inducing_commits": [
+     {
+      "commit_id": "7a29c8f38677d1c7474c979836562488f6bbadec"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2008-0599",
+  "test_case": "test7",
+  "fixing_details": [
+   {
+    "fixing_commit": "183267dc2916d1bcd7673fc8285f3fc1fc414462",
+    "inducing_commits": [
+     {
+      "commit_id": "30dd6a45d31cab020dad553bb7b6d4c499b01441"
+     },
+     {
+      "commit_id": "26214fc15f2882eca75371d352564d27979e6c3b"
+     },
+     {
+      "commit_id": "1a4c82e0149351c530e6196b548b1cf2a95e4410"
+     },
+     {
+      "commit_id": "a3bd39429ca53a1a6647c505bb82803490943ee5"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2015-2331",
+  "test_case": "test8",
+  "fixing_details": [
+   {
+    "fixing_commit": "4a8d8b4154334b1714e19b82b061201d41dc87d6",
+    "inducing_commits": [
+     {
+      "commit_id": "664d102aa65af165bf25163b220424e67241369c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "project": "PHP-SRC",
+  "cve_id": "CVE-2015-4021",
+  "test_case": "test9",
+  "fixing_details": [
+   {
+    "fixing_commit": "c27f012b7a447e59d4a704688971cbfa7dddaa74",
+    "inducing_commits": [
+     {
+      "commit_id": "16b4d8e0e1108564fa042520171d9091af708d83"
+     }
+    ]
+   }
+  ]
+ }
+]

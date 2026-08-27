@@ -1,0 +1,104 @@
+# TraceVIC training configuration.
+# All paths are relative to the project root (the directory containing this file).
+# Every value here can also be overridden on the command line — see
+# `python main_kfold.py --help`. CLI flags default to None, so omitting a flag
+# always leaves the value below in effect.
+
+paths:
+  # Dataset root: one subdirectory per test case, each holding info.json.
+  # Override with --data-root to train on a different dataset.
+  data_root: "../graph_construction/data/linux"
+  # Prebuilt graph structures, written by build_graphs.py.
+  prebuilt_dir: "temporal_graph"
+  # Where checkpoints and fold results are written.
+  save_dir: "checkpoints_GAT_Temporal"
+  # Selects both the model's view of the graph and the prebuilt_dir subfolder.
+  #   full_graph      GAT + temporal        (main method)
+  #   no_temporal     GAT - temporal        (ablation)
+  #   bszz_candidates B-SZZ candidates      (ablation)
+  graph_mode: "full_graph"
+
+# Phase 1: Deletion-line ranking
+phase1:
+  epochs: 30
+  lr: 0.000002
+  bert_lr: 0.00002
+  rest_lr: 0.0001
+  bert_freeze_bottom_layers: 8
+  patience: 10
+  max_pairs_per_test: 100
+  dropout: 0.2
+  max_graphs_per_batch: 41
+  # ReduceLROnPlateau settings for the Phase 1 optimizer.
+  lr_scheduler_factor: 0.5
+  lr_scheduler_patience: 5
+  # Max-norm for gradient clipping.
+  grad_clip_norm: 1.0
+  # Mini-graph extraction around each deletion line (data_processing/phase1/minigraph.py).
+  minigraph_max_nodes: 8
+  minigraph_max_depth: 2
+  # Characters of leading code text compared when matching a node across commits.
+  code_prefix_match_len: 20
+
+# Phase 2: Commit ranking
+phase2:
+  epochs: 40
+  lr: 0.00001
+  weight_decay: 0.01
+  batch_size: 32
+  patience: 12
+  dropout: 0.3
+  gradient_accumulation_steps: 2
+  temperature: 0.1
+  label_smoothing: 0.05
+  top_k_lines: 3
+  focal_gamma: 2.5
+  focal_alpha: 0.5
+  margin: 0.5
+  margin_weight: 0.5
+  hidden_dim: 512
+  num_heads: 4
+  num_commit_transformer_layers: 2
+  max_temporal_dist: 16
+  use_dual_query: True
+  use_temporal_pe: True
+  # ReduceLROnPlateau settings for the Phase 2 optimizer.
+  lr_scheduler_factor: 0.5
+  lr_scheduler_patience: 5
+  # Max-norm for gradient clipping.
+  grad_clip_norm: 1.0
+
+# Shared model architecture
+model:
+  hidden_dim: 768
+  num_gt_layers: 1
+  num_heads: 4
+  dropout: 0.1
+  include_bert: True
+  max_nodes_per_graph: 9500
+  bert_chunk: 64
+  use_temporal_pe: True
+  encoder_type: "gat"
+  # Code language model used to embed node text.
+  unixcoder_model_name: "microsoft/unixcoder-base-nine"
+  # Token budget per node snippet, and the resulting embedding width.
+  max_seq_len: 64
+  emb_dim: 768
+
+# Defaults
+defaults:
+  seed: 123
+  gpu_id: 0
+  # DataLoader worker processes. NOTE: this key existed before but was never
+  # read — the loader hardcoded 0. It is now honoured, and set to 0 so the
+  # default behaviour is unchanged. Raise it to parallelise batch collation.
+  num_workers: 0
+  max_nodes_per_batch: 4096
+  log_interval: 20
+  # Number of cross-validation folds. run_evaluation.py reads this too, so it
+  # reconstructs exactly the splits main_kfold.py trained on.
+  n_folds: 5
+  # Fraction of each fold's non-test cases held out for validation.
+  val_split: 0.20
+  # Minimum change counted as an improvement by EarlyStopping.
+  early_stopping_min_delta: 0.001
